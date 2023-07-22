@@ -39,7 +39,7 @@ class ServerList extends Component {
             })
             .then((res)=> {
                 if(res.status === 200) {
-                    this.props.history.push(`/dashboard/${server.id}`);
+                    this.props.history.push(`/dashboard/${server.id}`);       
                 }
             })
             } catch (error) {console.log(error)}
